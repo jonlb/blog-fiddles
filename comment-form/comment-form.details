@@ -1,0 +1,9 @@
+---
+ name: Comment Form
+ description: Comment Form demo for blog entry
+ authors:
+   - Jon Bomgardner
+ resources:
+   - 
+ normalize_css: no
+ ...
