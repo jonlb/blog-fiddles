@@ -52,7 +52,7 @@ window.addEvent('domready', function(){
                                 required: true,
                                 value: '',
                                 editorOptions: {
-                                    editorCssFile: 'css/editor.css',
+                                    //editorCssFile: 'css/editor.css',
                                     buttons: [
                                         ['bold','italic','underline','strikethrough','separator','alignment',
                                           'separator','orderedlist','unorderedlist','indent','outdent','separator','undo','redo'],
