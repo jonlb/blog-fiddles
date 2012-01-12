@@ -1,3 +1,4 @@
+/*
 ---
  name: Comment Form
  description: Comment Form demo for blog entry
@@ -9,3 +10,4 @@
    - https://raw.github.com/jonlb/blog-fiddles/master/comment-form/deps/mootools-more.js
  normalize_css: no
  ...
+ */
