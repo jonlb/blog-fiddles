@@ -2,3 +2,6 @@
  * Some css
  */
 
+.jxEditor span.jxEditorToolbar label.jxInputLabel {
+    display: inline;
+}

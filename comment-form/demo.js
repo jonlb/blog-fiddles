@@ -70,9 +70,12 @@ window.addEvent('domready', function(){
                                     'email': {
                                         //Need to add the empty validators array which will force it to
                                         //also pick up the required option in the field itself.
-                                        validators: []
+                                        validators: ['validate-email']
                                     },
                                     'url': {
+                                        validators: ['validate-url']
+                                    },
+                                    'description': {
                                         validators: []
                                     }
                                 }
