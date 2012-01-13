@@ -1,6 +1,6 @@
 window.addEvent('domready', function(){
     
-    new Jx.Layout('container');
+    new Jx.Layout('container').resize();
     
     new Jx.Container({
         parent: 'container',
@@ -55,12 +55,7 @@ window.addEvent('domready', function(){
                                     buttons: [
                                         ['bold','italic','underline','strikethrough','separator','alignment',
                                           'separator','orderedlist','unorderedlist','indent','outdent','separator','undo','redo'],
-                                        [{ name: 'customStyles',
-                                           options: {
-                                               styles: ['small','large','hide','quiet','loud','highlight',
-                                                    'added','removed','first','last','top','bottom']
-                                            }
-                                        },'block', 'separator', 'link','unlink', 'image','separator', 'toggle']
+                                        ['block', 'link','unlink', 'image','separator', 'toggle']
                                     ]
                                 }
                             }
