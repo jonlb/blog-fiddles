@@ -1,5 +1,6 @@
 window.addEvent('domready', function(){
     new Jx.Container({
+        parent: 'container',
         items: [{
             'class': 'panel',
             options: {
