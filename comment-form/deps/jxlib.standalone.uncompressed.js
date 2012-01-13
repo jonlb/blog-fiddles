@@ -29532,7 +29532,6 @@ Jx.Field.Editor = new Class({
     options: {
         template: '<span class="jxInputContainer"><label class="jxInputLabel"></label><span class="jxInputEditor"></span><span class="jxInputTag"></span></span>',
         editorOptions: {
-            editorCssFile: 'css/editor.css',
             buttons: [
                 ['bold','italic','underline','strikethrough','separator','alignment',
                       'separator','orderedlist','unorderedlist','indent','outdent'],

@@ -1,4 +1,7 @@
 window.addEvent('domready', function(){
+    
+    new Jx.Layout('container');
+    
     new Jx.Container({
         parent: 'container',
         items: [{
