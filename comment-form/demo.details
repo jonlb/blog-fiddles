@@ -6,7 +6,7 @@
    - Jon Bomgardner
  resources:
    - http://jxlib.org/reference/3.1.1/examples/lib/mootools-more.js
-   - http://jxlib.org/reference/3.1.1/examples/lib/jxlib.standalone.uncompressed.js
+   - https://raw.github.com/jonlb/blog-fiddles/master/comment-form/deps/jxlib.standalone.uncompressed.js
    - http://jxlib.org/reference/3.1.1/examples/lib/themes/crispin/jxtheme.uncompressed.css
 
  normalize_css: no
