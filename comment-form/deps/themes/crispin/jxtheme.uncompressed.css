@@ -1600,7 +1600,9 @@ li.jxToolItem  span.jxBarSeparator {
 
 .jxEditor span.jxEditorToolbar label.jxInputLabel {
     width: auto;
+    display: inline;
 }
+
 
 /**
  * Editor Buttons
