@@ -8,6 +8,7 @@ window.addEvent('domready', function(){
             'class': 'form',
             options: {
                 name: 'commentForm',
+                id: 'commentForm',
                 action: 'somepage.php',
                 formClass: 'jxFormBlock',
                 items: [{
