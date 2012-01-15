@@ -67,7 +67,8 @@ window.addEvent('domready', function(){
                     'class': 'button',
                     options: {
                         buttonOptions: {
-                            label: 'Submit Comment'
+                            label: 'Submit Comment',
+                            id: 'submit-comment'
                         }
                     }
                 }],
@@ -97,5 +98,12 @@ window.addEvent('domready', function(){
                 }]
             }
         }]
+    });
+    
+    $jx('submit-comment').addEvent('click',function(){
+        var form = $jx('commentForm');
+        if (form.isValid()) {
+            form.ajaxSubmit();
+        }
     });
 });
